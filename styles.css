@@ -536,7 +536,7 @@ body {
     font-weight: 600;
     line-height: 24px; 
     border-radius: 0px 0px 5px 5px;
-    background: var(--1, #201F22);
+    background:  #201F22;
     padding: 16px;
     display: flex;
     width:100%;
@@ -548,7 +548,7 @@ body {
     display: flex;
 }
 .started__hover__btn{
-    background: var(--red-500, #EF4444);
+    background:  #EF4444;
     color: #FFF;
     text-align: right;
     font-family: Inter;
@@ -589,7 +589,7 @@ body {
     font-weight: 700;
     line-height: 28px; 
     border-radius: 3px;
-    background: var(--red-500, #EF4444);
+    background:  #EF4444;
     border:none;
     outline:none;
     padding: 16px;
