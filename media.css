@@ -172,7 +172,11 @@
         gap:35px;
     }
 }
-
+@media(max-width:1997px){
+    .inner__website__care{
+        gap:70px;
+    }
+}
 @media(max-width:1120px){
     .inner__text{
         gap: 20px;
@@ -396,7 +400,15 @@
         width:320px;
     }
 }
-
+@media(max-width:335px){
+    .main__title{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .btn{
+        display: block;
+    }
+}
 @media(max-width:328px){
     .illustration{
         width:290px;
@@ -409,3 +421,8 @@
     }
 }
 
+@media(max-width:310px){
+    .btn{
+        padding:12px;
+    }
+}
