@@ -1,8 +1,10 @@
 const emailInput = document.getElementById("email");
 const shareBtn = document.querySelector(".submit__btn");
 const errorText = document.getElementById("error");
+const burger = document.querySelector(".burger__container");
+const items = document.querySelector(".header__items");
 
-// nevar nosūtīt , ja nav uzspiests share button
+
 
 shareBtn.addEventListener("click",function(){
 if(emailInput.value === ""){
@@ -10,4 +12,8 @@ if(emailInput.value === ""){
 }else{
     errorText.style.display = "none";
 }
+});
+
+burger.addEventListener("click",function(){
+    items.style.display = "block";
 });
