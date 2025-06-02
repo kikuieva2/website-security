@@ -92,6 +92,9 @@
     .main__inner--button{
         padding-top: 25px;
     }
+    .data__exchange__container{
+        padding: 125px;
+    }
 }
 
 @media(max-width:1337px){
@@ -112,6 +115,19 @@
     }
     .service__txt{
         padding-bottom: 15px;
+    }
+    .data__exchange__text--container{
+        padding-top: 140px;
+    }
+    .care__title{
+        font-size: 45px;
+        line-height: 45px;
+    }
+    .inner__exchange{
+        gap: 22px;
+    }
+    .data__exchange__container{
+        gap: 143px;
     }
 }
 
@@ -231,6 +247,9 @@
         display: flex;
         flex-direction: column;
     }
+    .data__exchange__container{
+        gap: 143px;
+    }
 }
 @media(max-width:1997px){
     .inner__website__care{
@@ -275,6 +294,15 @@
         padding-right: 65px;
         padding-bottom: 22px;
     }
+    .store__card{
+        flex: 1;
+    }
+    .data__exchange__container{
+        padding: 90px;
+    }
+    .inner__comment img{
+        width: 90px;
+    }
 }
 @media(max-width:1064px){
     .inner__service{
@@ -303,6 +331,23 @@
     .header__container{
         padding-left: 125px;
         padding-right: 125px;
+    }
+    .data__exchange__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .data__exchange__text--container{
+        padding-top: 40px;
+    }
+    .inner__exchange{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .service__txt{
+        text-align: center;
     }
 }
 @media(max-width:1010px){
@@ -481,6 +526,9 @@
     .footer__container{
         gap:50px;
     }
+    .icon{
+        width:40px;
+    }
 }
 
 @media(max-width:798px){
@@ -569,6 +617,10 @@
     .dollar{
         font-size:48px;
     }
+    .vector{
+        width: 230px;
+        right: -136px;
+    }
 }
 @media(max-width:763px){
     .inner__cards{
@@ -625,7 +677,7 @@
 }
 @media(max-width:650px){
     .icon{
-        width:60px;
+        width:30px;
     }
     .review__container{
         display: flex;
@@ -670,10 +722,50 @@
         padding-left: 30px;
         padding-right: 30px;
     }
+    .footer__container{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .footer__cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .data__exchange__container{
+        padding: 30px;
+        gap: 30px;
+    }
+}
+@media(max-width:511px){
+    .comment{
+        width: 70px;
+    }
+    .check__img{
+        width: 55px;
+    }
+    .background{
+        height: 70px;
+        width: 70px;
+    }
+    .security__img{
+        left: 18px;
+    }
+    .vector__img{
+        width: 62px;
+        left: -32px;
+    }
 }
 @media(max-width:490px){
     .care__title{
         text-align: center;
+    }
+    .vector{
+        width: 210px;
+    }
+    .dots__img{
+        width: 50px;
+        left: -30px;
     }
 }
 @media(max-width:450px){
@@ -683,9 +775,6 @@
     }
     .inner__trusted{
         padding:30px;
-    }
-    .vector{
-        width: 300px;
     }
 }
 @media(max-width:430px){
@@ -734,6 +823,12 @@
         padding-left: 30px;
         padding-right: 30px;
     }
+    .service{
+        width: 320px;
+    }
+    .vector{
+        top: 220px;
+    }
 }
 
 @media(max-width:340px){
@@ -745,6 +840,18 @@
     }
     .service__img{
         width: 320px;
+    }
+    .inner__footer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .started{
+        text-align: center;
+    }
+    .store__card{
+        width: 280px;
     }
 }
 @media(max-width:335px){

@@ -311,7 +311,19 @@ body {
     width: 127px;
     position: absolute;
     bottom: 149px;
-    left: -66px;
+    right: 355px;
+}
+.dots__img{
+    width:76px;
+    position: absolute;
+    left: -46px;
+    bottom: -11px;
+}
+.vector__img{
+    width:78px;
+    position: absolute;
+    top: 30px;
+    left: -59px;
 }
 .input__button--container{
     border-radius: 9px;
@@ -403,8 +415,41 @@ body {
 .inner__comment img{
     width: 127px;
     position: absolute;
-    bottom: 149px;
-    right: 355px;
+    bottom: 176px;
+    right: 359px;
+}
+.security__img{
+    width: 34px;
+    position: absolute;
+    bottom: 13px;
+    left: 24px;
+}
+.sec__vector{
+    width:51px;
+    position: absolute;
+    right: -5px;
+    bottom: 311px;
+}
+.check__img{
+    width: 68px;
+    position: relative;
+    left: 331px;
+    bottom: 185px;
+    right: 50px;
+}
+.green__vector{
+    position: relative;
+    left: 8px;
+}
+.background{
+   background: #1EBD53;
+    position: absolute;
+    border-radius: 9px;
+    opacity: 0.1;
+    height: 77px;
+    width: 86px;
+    position: absolute;
+    bottom: -3px;
 }
 .people img{
     width: 37px;
