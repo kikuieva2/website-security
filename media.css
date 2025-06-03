@@ -776,6 +776,21 @@
         width: 62px;
         left: -32px;
     }
+    .check__img{
+        width: 30px;
+    }
+    .background{
+        width: 30px;
+        height: 30px;
+    }
+    .security__img{
+        width: 15px;
+        left: 7px;
+        bottom: 9px;
+    }
+    .sec__vector{
+        width: 30px;
+    }
 }
 @media(max-width:490px){
     .care__title{
@@ -787,6 +802,12 @@
     .dots__img{
         width: 50px;
         left: -30px;
+    }
+}
+
+@media(max-width:462px){
+    .dots__img{
+        left: -9px;
     }
 }
 @media(max-width:450px){
