@@ -736,20 +736,41 @@
         padding: 30px;
         gap: 30px;
     }
+    .inner__comment img{
+        width: 70px;
+    }
+    .dots__img{
+        width: 55px;
+        left: -20px;
+    }
+    .vector__img{
+        width: 60px;
+        left: -32px;
+    }
+    .check__img{
+        width: 50px;
+    }
+    .background{
+        width: 60px;
+        height: 60px;
+    }
+    .security__img{
+        width: 25px;
+        left: 20px;
+    }
+}
+@media(max-width:520px){
+    .inner__comment img{
+        width: 50px;
+    }
+
 }
 @media(max-width:511px){
     .comment{
         width: 70px;
     }
-    .check__img{
-        width: 55px;
-    }
-    .background{
-        height: 70px;
-        width: 70px;
-    }
     .security__img{
-        left: 18px;
+        left: 13px;
     }
     .vector__img{
         width: 62px;
